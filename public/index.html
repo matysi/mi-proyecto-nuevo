@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/index.css">
-    <title>EVALUACIÓN - POST ITS</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 480px) and (resolution: 163dpi)" href="css/index.css" />
+
+    <title>Document</title>
 </head>
 <body>
-    <h1>POST ITS VIRTUALES!</h1>    
-    <h4 id="texto1">Importante</h4> 
-    <input type="checkbox" name="Importante" id="importante">
+    <h1>Post It</h1>
+    <h1>doble click para eliminar</h1>
+
     <div id="app">
-        <button class="agregar-nota" type="button">Agregar nota</button>
-        <button class="borrar-nota" type="button" onclick="borrarNota">DOBLE CLICK SOBRE LA NOTA QUE DESEA ELIMINAR.</button>
-    </div>
-        
+        <button class="add-note" type="button">Agregar post it normal</button>
+        <!-- <button class="delete-note" type="button" onclick='javascript:deletenote();'>Haga doble click sobre la nota que desee eliminar.</button> -->
+        <button class="add-note-important" type="button">Agregar post it importante</button>
+
+      </div>
 </body>
 <script src="js/index.js"></script>
 </html>
